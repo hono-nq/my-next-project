@@ -12,8 +12,8 @@ export default async function Page() {
     return (
         <>
             <SearchField />
-            <NewsList articles={articles}>
+            <NewsList news={news} />
             <Pagination totalCount={totalCount} />
-        </NewsList>
+        </>
     );
 }
